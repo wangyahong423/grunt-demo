@@ -1,12 +1,25 @@
 module.exports = function (grunt) {
   grunt.initConfig({
-    mocha: {
-      test: {
-        src: ['test/index.html'],
-      },
+    run: {
+      api: {
+        options: { wait: false },
+        args: ['./app.js']
+      }
+    },
+    mochacli: {
       options: {
-        run: true,
-        reporter: 'Dot'
+        reporter: 'spec',
+        bail: true
+      },
+        all: ['test/*.js']
+    }
+  });
+
+  grunt.loadNpmTasks('grunt-run')
+  grunt.loadNpmTasks('grunt-mocha-cli')
+
+  grunt.registerTask('default', ['run', 'mochacli', 'stop:api']);
+};
       }
     }
   });
