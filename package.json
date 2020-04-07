@@ -1,21 +1,21 @@
 {
-  "name": "grunt-demo",
+  "name": "spa",
   "version": "1.0.0",
-  "description": "grunt 试炼场",
+  "description": "SPA 富应用开发课程",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"nothing to test!\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangding/grunt-demo.git"
+    "url": "git+https://github.com/wangyahong423/spa.git"
   },
-  "author": "wangding",
+  "author": "wangyahong423",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wangding/grunt-demo/issues"
+    "url": "https://github.com/wangyahong423/spa/issues"
   },
-  "homepage": "https://github.com/wangding/grunt-demo#readme",
+  "homepage": "https://github.com/wangyahong423/spa#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-spritesmith": "^6.5.1"
