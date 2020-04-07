@@ -18,6 +18,6 @@
   "homepage": "https://github.com/wangding/grunt-demo#readme",
   "devDependencies": {
     "grunt": "^1.0.4",
-    "grunt-contrib-concat": "^1.0.1"
+    "grunt-spritesmith": "^6.5.1"
   }
 }
